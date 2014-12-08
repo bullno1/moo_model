@@ -1,0 +1,12 @@
+{application, moo_model, [
+	{description, "Model parsing and verification for cowboy"},
+	{vsn, "0.0.1"},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy,
+		jsx
+	]},
+	{env, []}
+]}.
